@@ -2,15 +2,15 @@ using System;
 
 namespace SociedadeDoAnel
 {
-    // 1 Classe MembroDaSociedade
+    //  Classe MembroDaSociedade
     public class MembroDaSociedade
     {
-        // 2 Atributos privados
+        //  Atributos privados
         private string nome;
         private string raca;
         private string funcao;
 
-        // 3 Construtor 
+        //  Construtor 
         public MembroDaSociedade(string nome, string raca, string funcao)
         {
             this.nome = nome;
@@ -18,7 +18,7 @@ namespace SociedadeDoAnel
             this.funcao = funcao;
         }
 
-        // 4 Metodo Descrever
+        //  Metodo Descrever
         public void Descrever()
         {
             Console.WriteLine(" Membro da Sociedade do Anel ");
