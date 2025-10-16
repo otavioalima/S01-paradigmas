@@ -20,9 +20,9 @@ class PhantomThieves:
 # Classe Principal (Joker)
 class Joker:
     def __init__(self, membros):
-        # Composicao -> Joker cria e gerencia sua propria arma
+        
         self.arma = ArmaCorpoACorpo("Faca")
-        # Agregacao -> Recebe lista de membros PhantomThieves
+       
         self.membros = membros
 
     # Metodo que mostra a equipe agregada
@@ -33,7 +33,7 @@ class Joker:
             print(membro)
 
 
-# Execucao direta (sem verificacao __name__)
+# Execucao direta
 membro1 = PhantomThieves("Skull", "Cano de ferro")
 membro2 = PhantomThieves("Panther", "Chicote")
 membro3 = PhantomThieves("Fox", "Katana")
