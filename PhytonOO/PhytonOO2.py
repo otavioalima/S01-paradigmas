@@ -29,7 +29,7 @@ class Dano(Heroi):
         print(f"{self.nome} (Dano) usou sua ultimate: rajada explosiva!")
 
 
-# Execucao direta (sem __main__)
+# Execucao direta 
 herois = [
     Tanque("Reinhardt"),
     Dano("Soldado 76")
